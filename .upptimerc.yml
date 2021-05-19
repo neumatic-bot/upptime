@@ -16,8 +16,6 @@ workflowSchedule:
 sites:
   - name: Neumatic.ML
     url: https://neumatic.ml
-  - name: Neumatic.ML
-    url: https://uefiojhfuioehsjfeuioshoeih;vueoihs;d.com
   - name: Forum.Neumatic.ML
     url: https://forum.neumatic.ml
   - name: CDN.Neumatic.ML
