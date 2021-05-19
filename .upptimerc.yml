@@ -5,6 +5,8 @@ repo: pinger # The name of this repository
 sites:
   - name: Neumatic.ML
     url: https://neumatic.ml
+  - name: Forum.Neumatic.ML
+    url: https://forum.neumatic.ml
   - name: CDN.Neumatic.ML
     url: https://cdn.neumatic.ml
   - name: Finn SMP
