@@ -2,6 +2,17 @@
 owner: neumaticc # Your GitHub organization or username, where this repository lives
 repo: pinger # The name of this repository
 
+commitMessages:
+  commitAuthorName: "Neu Bot"
+  commitAuthorEmail: "neumaticc@gmail.com"
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 sites:
   - name: Neumatic.ML
     url: https://neumatic.ml
@@ -15,6 +26,8 @@ sites:
     url: http://www.pipsmp.ml
 
 status-website:
+  theme: dark
+
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.neumatic.ml
@@ -22,8 +35,6 @@ status-website:
   logoUrl: https://avatars.githubusercontent.com/u/77523929?s=400&u=c4365e03b1309e818a2c7e671254755b8b98716e&v=4
   name: Status.neumatic.ml
   introTitle: "Welcome to Neumatic Status!"
-  status-website:
-      theme: dark
   introMessage: 
   navbar:
     - title: Status
