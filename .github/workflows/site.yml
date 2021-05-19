@@ -10,7 +10,7 @@
 name: Static Site CI
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "*/5 * * * *"
   repository_dispatch:
     types: [static_site]
   workflow_dispatch:
@@ -36,5 +36,5 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAT }}
           publish_dir: "site/status-page/__sapper__/export/"
-          user_name: "Neu Bot"
-          user_email: "neumaticc@gmail.com"
+          user_name: "neumatic-bot"
+          user_email: "neumatic@seized.email"
